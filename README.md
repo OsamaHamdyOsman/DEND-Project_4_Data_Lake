@@ -4,8 +4,9 @@
 
 A music streaming startup, Sparkify, has grown their user base and song database even more and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
-This project aimed at establishing an ETL pipeline to extract song and log data hosted in an S3 bucket "**`s3a://udacity-dend`**" Then Spark is used to process the data through pyspark into different parquet formatted fact and dimensional tables (**star schema**) that will be loaded back into s3. This should improve the peformance and support provided to the analysts team to glean insights on the listeners behaviour, songs peformance, and a lot more.
-
+* This project aimed at establishing an ETL pipeline to extract song and log data hosted in an S3 bucket " s3a://udacity-dend ".
+* Then Spark is used to process the data via pyspark into different parquet formatted fact and dimensional tables ( star schema ) that will be loaded back into s3,
+* This should improve the performance and support provided to the analysts' team to glean insights on the listeners' behavior, songs performance, and a lot more.
 ## Datasets
 Sparkify provided two datasets that reside in S3. Here are the S3 links for each:
 
